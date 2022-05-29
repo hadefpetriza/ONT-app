@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn{
+    color: transparent;
+}
+#terminal.col-md-4{
+    max-width: 30.33333%;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)), url('../img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    border-bottom: 5px double red;
+    padding: .2em 0;
+}
+p{
+    opacity: 0;
+    transition: 1s;
+}
+th, td {
+  padding: 0;
+}
+.hidden{
+    display: none;
+}
+
+/* Header Web */
+#header-web{
+    background-color: rgba(255, 255, 255, 1);
+}
+#logo-web.img-fluid{
+    max-width: 4em;
+}
+#title-header-web{
+    display: flex;
+    flex-direction: row;
+}
+#navbar-header-web{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#navbar-header-web a{
+    margin-left: 1em;
+    text-decoration: none;
+}
+.list.list-group-item{
+    background-color: transparent;
+    padding: 0.35rem 1.25rem;
+    border: none;
+    transition: .25s;
+}
+.list.list-group-item:hover{
+    color: white;
+    background-color: red;
+    border-radius: 0;
+}
+
+/* side navbar */
+#side-navbar{
+    background-color: rgb(255, 255, 255);
+    border-top: .5em solid red;
+}
+
+/* main content */
+#content-box{
+    background-color: rgb(255, 255, 255);
+    border-top: .5em solid red;
+}
+
+/* main content */
+
+/* Form Penambahan ONT */
+#submit-ont{
+    background-color: red;
+    border-color: red;
+}
+#submit-ont:hover{
+    background-color: rgb(184, 14, 14);
+}
+#terminal{
+    background-color: rgb(255, 255, 255);
+    border-top: .5em solid red;
+}
+#terminal-space{
+    height: calc(100% - 77px);
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+/* search */
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 39px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 0;
+    padding-left: 10px;;
+}
+.search_input{
+    color: white;
+    outline: 0;
+    transition: width 0.4s linear;
+    border: 0;
+    background: transparent;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    padding: 0 10px;
+    width: 250px;
+    caret-color:red;
+    transition: width 0.4s linear;
+}
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+.search_icon:hover{
+    color:red;
+}
